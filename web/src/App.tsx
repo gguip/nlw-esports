@@ -62,8 +62,10 @@ function App() {
         </a>
       </div>
 
+      <div className='pt-1 bg-nlw-gradient self-stretch'>
       <div className="bg-[#2A2634] px-8 py-6 mt-8 self-stretch rounded-lg">
 
+      </div>
       </div>
     </div>
     )
