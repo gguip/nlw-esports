@@ -1,4 +1,4 @@
-import { View, Image, FlatList } from "react-native";
+import { View, Image, FlatList, Text } from "react-native";
 
 import logoImg from "../../assets/logo-nlw-esports.png";
 import { GameCard } from "../../components/GameCard";
@@ -26,6 +26,8 @@ export function Home() {
         horizontal
         contentContainerStyle={styles.contentList}
       />
+
+      <Text>Test</Text>
     </View>
   );
 }
